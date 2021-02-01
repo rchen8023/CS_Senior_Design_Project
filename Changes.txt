@@ -1,0 +1,96 @@
+2-21-2020
+Cleaning data to binary for next testing.
+Code:	Wrote conversion.py for changing csv file
+Got the student_cleaned.csv
+
+
+
+2-25-2020
+Cleaning data to clear the student who don't have the ACT score
+22809-20175 = 2634 students don't have ACT score
+
+Code:	RandomForest.py	(Not finished yet)
+
+Total number of male:		9831
+Total number of female:		10341
+Total number of unknow gender:	1
+
+Total number of drop out students:	1778
+Drop out percentage:			5.84%
+
+
+
+3-10-2020
+Cleaning students who did not have high school gpa listed
+Removed student with no gender listed
+20017 students in current dataset
+Added rforest which implements random forest on the dataset
+Added cross validation which will run k-fold cross validation for tuning hyperparameters
+
+Total number of male:		9774
+Total number of female:		10242
+
+Total number of American Indian or Alaska Native:           92
+Total number of Asian:                                      217
+Total number of Black or African American:                  197
+Total number of Hispanics of any race:                      1225
+Total number of Native Hawaiian or Other Pacific Islander:  23
+Total number of Nonresident Alien:                          49
+Total number of Race and Ethnicity unknown:                 890
+Total number of Two or more races:                          707
+Total number of White:                                      16616
+Total number of Not Hispanic:                               13393         
+
+Total number of drop out students:	1762
+Drop out percentage:			8.80%
+Total number of male drop out:	928	
+Percentage: 9.49%
+Total number of female drop out:  834
+Percentage: 8.14%
+
+Total number of American Indian or Alaska Native drop out: 12
+Percentage: 13.04%
+Total number of Asian drop out:  19
+Percentage: 8.76%
+Total number of Black or African American drop out:  20
+Percentage: 10.15%
+Total number of Hispanics of any race drop out:  129
+Percentage: 10.53%
+Total number of Native Hawaiian or Other Pacific Islander drop out:  0
+Percentage: 0%
+Total number of Nonresident Alien drop out:  3
+Percentage: 6.12%
+Total number of Race and Ethnicity unknown drop out:  104
+Percentage: 11.69%
+Total number of Two or more races drop out:  67
+Percentage: 9.47%
+Total number of White drop out:  1408
+Percentage: 8.47%
+Total number of Not Hispanic drop out:  1112
+Percentage: 8.30%
+
+Total number of withdrawl:      325
+Total number of withdrawl dropout:  294
+Percentage: 90.46%
+
+Total number of undeclared:     2914
+Total number of undeclared dropout:  361
+Percentage: 12.39%
+
+
+
+3-12-2020
+Test with more intersectional dropout rate
+
+Total number of student: 	20017
+Total number of male:		9775 (last time is 9774, why?)
+Total number of female:		10242
+
+Total number of drop out students:	1762
+Drop out percentage:			8.802518%
+Total number of male drop out:	928	
+Percentage: 9.49%
+Total number of female drop out:  834
+Percentage: 8.14%
+
+
